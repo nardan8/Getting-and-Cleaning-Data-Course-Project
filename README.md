@@ -19,3 +19,16 @@ In this project as a source of data set was used [Human Activity Recognition Usi
 >- An identifier of the subject who carried out the experiment.
 
 Via merging test and train together, selecting columns with mean and standard deviation measurments was created new data set (column count = 10299, rows 88). Mean values for each subject and activity stored into new data set.
+
+## Create the tidy data set
+The R script `run_analysis.R` used to create tidy data set from data source. To achieve this the script performs next operation to data source:
+- Download and unzip data;
+- Read data;
+- Use descriptive activity names to name the activities in the data set;
+- Merges the training and the test sets to create one data set;
+- Extracts only the measurements on the mean and standard deviation for each measurement;
+- Appropriately labels the data set with descriptive variable names;
+- Create a second, independent tidy set with the average of each variable for each activity and each subject.
+- Save the tidy data to the `tidy_data.txt` file.
+
+This script requires `dplyr` package (used version 1.0.2).
