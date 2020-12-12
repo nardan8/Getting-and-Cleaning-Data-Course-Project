@@ -4,9 +4,9 @@ My course project
 The purpose of this project is to demonstrate the ability to collect, work with, and clean a data set.
 To achieve this student must work with [HAR Data Set](#Human-Activity-Recognition-Using-Smartphones-Data-Set)
 As result of my work this repository contains next files:
-</t>* `Readme.md` - contains information about data set creation, and provides short overview of the data;
-</t>* `CodeBook.md` which describes the contents of the data set; 
-</t>* `run_analysis.R`, contains all operation (download, read, merge, select, rename, save to file, collect tidy data) with data set. 
+</br></t>* `Readme.md` - contains information about data set creation, and provides short overview of the data;
+</br></t>* `CodeBook.md` which describes the contents of the data set; 
+</br></t>* `run_analysis.R`, contains all operation (download, read, merge, select, rename, save to file, collect tidy data) with data set. 
 
 
 ## <a>Human Activity Recognition Using Smartphones Data Set</a>
