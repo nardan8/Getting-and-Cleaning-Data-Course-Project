@@ -102,18 +102,18 @@ The following operation applied to the source data:
 2. Performed merging to combine train and test data set into one data set.
 3. Performed selection to extract only the measurements on the mean and standard deviation (variables which contain "mean" or "std" strings).
 4. Performed next changes to data set column names to make them more descriptive:
-- Any "." character removed.
-- Column names which start from "t" replaced by "Time".
-- "tBody" replaced by "TimeBody".
-- "Freq" replaced by "Frequency".
-- Column names which start from "f" replaced by "Frequency".
-- "angle" replaced by "Angle".
-- "Acc" replaced by "Accelerometer".
-- "Gyro" replaced by "Gyroscope".
-- "BodyBody" replaced by "Body".
-- "Mag" replaced by "Magnitude".
-- "mean" replaced by "Mean".
-- "gravity" replaced by "Gravity".
-- "std" replaced by "StandardDeviation".
+    - Any "." character removed.
+    - Column names which start from "t" replaced by "Time".
+    - "tBody" replaced by "TimeBody".
+    - "Freq" replaced by "Frequency".
+    - Column names which start from "f" replaced by "Frequency".
+    - "angle" replaced by "Angle".
+    - "Acc" replaced by "Accelerometer".
+    - "Gyro" replaced by "Gyroscope".
+    - "BodyBody" replaced by "Body".
+    - "Mag" replaced by "Magnitude".
+    - "mean" replaced by "Mean".
+    - "gravity" replaced by "Gravity".
+    - "std" replaced by "StandardDeviation".
 5. Creatied the second, independent tidy set with the average of each variable for each activity and each subject. 
 
