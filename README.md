@@ -4,7 +4,8 @@ The purpose of this project is to demonstrate the ability to collect, work with,
 As result of my work this repository contains next files:
 - `Readme.md` - contains information about data set creation, and provides short overview of the data;
 - `CodeBook.md` which describes the contents of the data set; 
-- `run_analysis.R`, contains all operation (download, read, merge, select, rename, save to file, collect tidy data) with data set. 
+- `run_analysis.R`, contains all operation (download, read, merge, select, rename, save to file, collect tidy data) with data set.
+- `tidy_data.txt`, stores tidy data - the result of R script `run_analysis.R` execution.
 
 
 ## Data Set
